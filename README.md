@@ -14,6 +14,29 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+ React JS CRUD Operations using JSON Server REST API 
+
+Steps Followed
+==================
+1,  Implement Listing
+ 2,  implement Create Employee with validation
+ 3, Implement details page
+ 4, Implement edit employee
+ 5, Implement Delete
+
+Installation steps
+=================
+1,  Create new app
+           npx create-react-app employee
+2,  Create routing
+           npm install react-router-dom
+3,  Install bootstrap
+          npm install bootstrap
+4,  Install Json-Server
+           npm install -g json-server
+5,  Define & Run JSON Server REST API
+      json-server --watch db.json --port 8000
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-const RawData = [
+const data = [
     {
       id: 1,
       title: 'What is an FAQ page?',
@@ -27,7 +27,6 @@ const RawData = [
     },
   ]
 const MultiSelectFAQ = () => {
-    const [data, setData] = useState(RawData);
     const [singleFAQ, setSingleFAQ] = useState(null);
     const [isMultiSelect, setMultiSelect] = useState(false);
     const [multiFAQ, setMultiFAQ] = useState([]);
